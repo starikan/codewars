@@ -7,10 +7,17 @@
     {
       "type": "pwa-node",
       "request": "launch",
-      "name": "Launch Program",
+      "name": "JS",
       "skipFiles": [
         "<node_internals>/**"
       ],
+      "program": "${file}"
+    },
+    {
+      "name": "Python",
+      "request": "launch",
+      "console": "integratedTerminal",
+      "type": "python",
       "program": "${file}"
     }
   ]
